@@ -56,10 +56,11 @@ public class TipodeDatoMatriz {
                 this.Matriz[Fila][Columna]= dato;
                 
             }
+            return 0;
         }
          public void eliminar (int Fila,int Columna){
             
-            if (tFilas<Fila || tColumna<Columna || Fila < 0 || Columna < 0){
+            if (tFilas<Fila || int tColumna< int Columna || Fila < 0 || Columna < 0){
                 System.out.println("ERROR: Dato no es correcto");
             }else{
                 this.Matriz[Fila][Columna]= null;
